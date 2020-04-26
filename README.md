@@ -80,7 +80,7 @@ At this point, a user who now knows they've been in contact with an infected per
 
 
 ### Automating iterative consent on each "hop" *(with a tradeoff)*
-I've already explained some of these to a couple people in IT sector. And one of their initial responses was *-apart from "why are you so paranoid"-* that a consent requirement on each "hop" could incapacitate the system rendering it ineffective, especially considering most people would give consent anyways. 
+I've already explained some of these ideas to a couple people in IT sector. And one of their initial responses was *-apart from "why are you so paranoid"-* that a consent requirement on each "hop" could incapacitate the system rendering it ineffective, especially considering most people would give consent anyways. 
 
 And I agree with them to an extent since it requires human interaction. My brother (he works in PR) also pointed out that most people would rather have a more autonomous system, then to download a list everyday and manually check against. So in this section I will offer amendments to my above proposal with a potential trade-off from privacy. But keeping the above option as a choice nevertheless, which is the important thing.
 
