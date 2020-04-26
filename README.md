@@ -105,7 +105,7 @@ Ideally, there should be a decentralised, intamperable, single storage sharing t
 
 Writing *poorly* from the comfort of my home is easy. Doing is something else. There are already many challenges that even I can spot right now. And I'd rather talk about them too, and offer answers if I can.
 
-####Technological
+#### Technological
 
 To be completely honest, technological challenges are probably the least of the worries. A lot of them are side-products of dumping smartphones for this approach. Here are 3 of them that I think will require serious thought:
 
@@ -164,7 +164,7 @@ With steady progress starting now, we can have the tools to fight this virus (an
 
 -------
 
-##### Footnotes
+#### Footnotes
 <sup>1</sup>[This is the research article](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-article-info) I think is used as a reference, but honestly no number as 60% is actually mentioned. If anyone can find the where that number popped from I'd be glad, cuz there's multiple references to it from multiple publications (some of them sister publications).
 
 <sup>2</sup>I dont have to take Google's, Apple's, my government's or *that app developer*'s word for it that it's been removed/deactivated.
