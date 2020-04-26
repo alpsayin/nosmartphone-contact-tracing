@@ -113,7 +113,7 @@ To be completely honest, technological challenges are probably the least of the 
  - The wireless tech to be used should be able to create multiple beacons, and scan at the same time. It should also be able to address EFF's concerns about false positives and false negatives *(to an extent, this aint an ideal world but we work towards it)*.
  - Open source and embedded systems dont play well together as cross-compilation is not an easy task for general public. Problem is, any device that's manufactured and sold could've been injected with rogue code. These devices should be flashable by user if needed. And in fact, entire manufacturing process should be open-source and reproducable.
 
-####Financial
+#### Financial
 
 In an ideal world, these devices would be distributed to citizens free of charge. Some financial protections could be implemented like promises to return, replacements costs etc. The main problem would still be the initial production and distribution costs.
 
@@ -128,7 +128,7 @@ So perhaps a non-global funding is not the way to go here. As proven, this is a 
 Perhaps a global funding needs to be set-up or tapped into for this vision to be realised. Perhaps this could be the task of an R&D branch of an entity that organises the "germ-games" Bill Gates mentions in his [now-infamous 2015 speech](https://www.ted.com/talks/bill_gates_the_next_outbreak_we_re_not_ready?language=en).
 
 
-####Distribution
+#### Distribution
 
 Of course, the first question I've been challenged with was: 
 
@@ -161,7 +161,9 @@ Look, a lot of the stuff I talk about here, I'm not sure about their feasibility
 With steady progress starting now, we can have the tools to fight this virus (and the futures ones), with a united global approach and without handing our privacy to "authorities". I genuinely find that utopia that I mentioned in <sup>5</sup> is plausible and an OK place to live. And in case you're wondering, we're already living in a what people would call an apocalyptic utopia 10 years ago.
 
 <br />
+
 -------
+
 ##### Footnotes
 <sup>1</sup>[This is the research article](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-article-info) I think is used as a reference, but honestly no number as 60% is actually mentioned. If anyone can find the where that number popped from I'd be glad, cuz there's multiple references to it from multiple publications (some of them sister publications).
 
