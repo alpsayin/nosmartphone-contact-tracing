@@ -49,7 +49,7 @@ Thirdly, Bluetooth is not a technology built for this purpose. Even though the a
 I like the idea of rotating IDs, but even I was able to see the leak in that proposal. This brings in 2 problems; 
 
 1. Once you release your IDs you effectively release all your association data (also mentioned in EFF article). 
-2. The fact that any guessable algorithm can also be reverse-engineered by some pattern analysis, which has severe privacy implications (i.e. metadata analysis). 
+2. The fact that any non-random algorithm can also be reverse-engineered by some pattern analysis, which has severe privacy implications (i.e. metadata analysis). 
 
     - Let me give you an example; I am currently in isolation with my brother and say we turned our contact tracing on. From my point of view, every 30 minutes or so, an ID would disappear and a new one would show up. Now, without even a proper analysis, one would be able to tie those IDs to each other. This creates a huge risk.
 
