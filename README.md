@@ -88,7 +88,7 @@ Above section mentioned that the contacted IDs would only be uploaded if the use
 
 The good thing about this approach is that, they can use their devices, or their trusted proxies to handle this option, or not use this option at all.
 
-The bad thing about this approach is that the contact tracing would still require a collective action from edge devices to be realised. On top of that, bad actors can make this an *opt-out* rather than *opt-in*. So transparency is at utmost importance when/if a proxy is used.
+The bad thing about this approach is that the contact tracing would still require a collective upload action from edge devices to be carried out. On top of that, bad actors can make this an *opt-out* rather than *opt-in*. So transparency is at utmost importance when/if a proxy is used.
 
 Now, when a user mark themselves as infected, the distributed system of wearables start tracing the contacts who have been in contact with the "infected" person. The system all-together "automagically" traces contacts, with a consent check at each user's device.
 
