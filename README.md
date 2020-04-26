@@ -45,6 +45,9 @@ Secondly, as EFF article also mentions, we do not take our smartphones everywher
 
 Thirdly, Bluetooth is not a technology built for this purpose. Even though the advancements in BT tech has certainly increased its capabilities such as with BLE, it would be much naive to think that such technology exists in all smartphones and could reach the necessary saturation ([60% by some estimates<sup>2<sup>](https://venturebeat.com/2020/04/21/european-scientists-and-researchers-raise-privacy-concerns-over-coronavirus-contact-tracing-apps/)) for the original approach to be effective. Hence, a purpose built device, with the right wireless technology could potentially be much more effective.
 
+Use of a purpose-specific embedded system also enables the use of *burner* wearables for the utmost privacy concerned. A person who needs as much as possible protection from potential tracking could choose to buy new wearables periodically and dump the old ones if they feel the need to do so. This would be much more difficult to do with a smartphone. Effectively, a smartphone solution would mean a choice between privacy and health. We have a fundamental right to both.
+
+
 ### Unique-but-rotating beacon IDs
 I like the idea of rotating IDs, but even I was able to see the leak in that proposal. This brings in 2 problems; 
 
