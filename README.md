@@ -76,7 +76,9 @@ Once the contact history is uploaded it would be done so without the source ID, 
 
 At this point all we have is a list of IDs that have *-potentially-* been in contact with an infected person. A list does not have the capacity to notify anyone since there is absolutely no contact information attached. So, at this point it falls onto the user to download the list of IDs periodically and locally check against their own IDs to see if they have been in contact. Or alternatively they can use a trusted proxy/provider to store their IDs to automatically check and be notified. But the important thing here is to use a proxy and which proxy to use is a choice<sup>4</sup>.
 
-At this point, a user who now knows they've been in contact with an infected person also has a choice. Either mark themselves as "been in contact" *(maybe followed by an indicator that this is a multiple level contact)* or do nothing (in accordance with *Idea C*).
+Another advantage of opening up access to as many as possible proxies/providers/users is that there would be no central repository that stores all personal ID ties (*i.e. ability to identify a person from their beacon IDs*). This implies that no single entity (gov, authority, company etc.) would be able to access all ID-to-person ties. The usual legal tricks could also be applied here to keep that data as private as possible *(e.g. storing data and their encryption keys in different jurisdictional areas)*. 
+
+At this point, a user who now knows they've been in contact with an infected person also has a choice. Either mark themselves as "been in contact" *(maybe followed by an indicator that this is a multiple level contact)* or do nothing (in accordance with *Idea C*). If they mark themselves as "been in contact" then this section is triggered from the start.
 
 
 ### Automating iterative consent on each "hop" *(with a tradeoff)*
