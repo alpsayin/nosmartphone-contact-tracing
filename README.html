@@ -1,0 +1,1190 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>body {
+  max-width: 980px;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 45px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headerlink {
+  font: normal 400 16px fontawesome-mini;
+  vertical-align: middle;
+  margin-left: -16px;
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0;
+  color: #333;
+}
+
+.markdown-body .headerlink:focus {
+  outline: none;
+}
+
+.markdown-body h1 .headerlink {
+  margin-top: 0.8rem;
+}
+
+.markdown-body h2 .headerlink,
+.markdown-body h3 .headerlink {
+  margin-top: 0.6rem;
+}
+
+.markdown-body h4 .headerlink {
+  margin-top: 0.2rem;
+}
+
+.markdown-body h5 .headerlink,
+.markdown-body h6 .headerlink {
+  margin-top: 0;
+}
+
+.markdown-body .headerlink:hover,
+.markdown-body h1:hover .headerlink,
+.markdown-body h2:hover .headerlink,
+.markdown-body h3:hover .headerlink,
+.markdown-body h4:hover .headerlink,
+.markdown-body h5:hover .headerlink,
+.markdown-body h6:hover .headerlink {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* MultiMarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px fontawesome-mini;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\e157';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><style>/*GitHub*/
+.codehilite {background-color:#fff;color:#333333;}
+.codehilite .hll {background-color:#ffffcc;}
+.codehilite .c{color:#999988;font-style:italic}
+.codehilite .err{color:#a61717;background-color:#e3d2d2}
+.codehilite .k{font-weight:bold}
+.codehilite .o{font-weight:bold}
+.codehilite .cm{color:#999988;font-style:italic}
+.codehilite .cp{color:#999999;font-weight:bold}
+.codehilite .c1{color:#999988;font-style:italic}
+.codehilite .cs{color:#999999;font-weight:bold;font-style:italic}
+.codehilite .gd{color:#000000;background-color:#ffdddd}
+.codehilite .ge{font-style:italic}
+.codehilite .gr{color:#aa0000}
+.codehilite .gh{color:#999999}
+.codehilite .gi{color:#000000;background-color:#ddffdd}
+.codehilite .go{color:#888888}
+.codehilite .gp{color:#555555}
+.codehilite .gs{font-weight:bold}
+.codehilite .gu{color:#800080;font-weight:bold}
+.codehilite .gt{color:#aa0000}
+.codehilite .kc{font-weight:bold}
+.codehilite .kd{font-weight:bold}
+.codehilite .kn{font-weight:bold}
+.codehilite .kp{font-weight:bold}
+.codehilite .kr{font-weight:bold}
+.codehilite .kt{color:#445588;font-weight:bold}
+.codehilite .m{color:#009999}
+.codehilite .s{color:#dd1144}
+.codehilite .n{color:#333333}
+.codehilite .na{color:teal}
+.codehilite .nb{color:#0086b3}
+.codehilite .nc{color:#445588;font-weight:bold}
+.codehilite .no{color:teal}
+.codehilite .ni{color:purple}
+.codehilite .ne{color:#990000;font-weight:bold}
+.codehilite .nf{color:#990000;font-weight:bold}
+.codehilite .nn{color:#555555}
+.codehilite .nt{color:navy}
+.codehilite .nv{color:teal}
+.codehilite .ow{font-weight:bold}
+.codehilite .w{color:#bbbbbb}
+.codehilite .mf{color:#009999}
+.codehilite .mh{color:#009999}
+.codehilite .mi{color:#009999}
+.codehilite .mo{color:#009999}
+.codehilite .sb{color:#dd1144}
+.codehilite .sc{color:#dd1144}
+.codehilite .sd{color:#dd1144}
+.codehilite .s2{color:#dd1144}
+.codehilite .se{color:#dd1144}
+.codehilite .sh{color:#dd1144}
+.codehilite .si{color:#dd1144}
+.codehilite .sx{color:#dd1144}
+.codehilite .sr{color:#009926}
+.codehilite .s1{color:#dd1144}
+.codehilite .ss{color:#990073}
+.codehilite .bp{color:#999999}
+.codehilite .vc{color:teal}
+.codehilite .vg{color:teal}
+.codehilite .vi{color:teal}
+.codehilite .il{color:#009999}
+.codehilite .gc{color:#999;background-color:#EAF2F5}
+</style><title>README</title></head><body><article class="markdown-body"><h2 id="privacy-centered-contact-tracing-with-purpose-built-wearables">Privacy-centered contact tracing with purpose-built wearables<a class="headerlink" href="#privacy-centered-contact-tracing-with-purpose-built-wearables" title="Permanent link"></a></h2>
+<p>This repo is for describing an idea for a privacy-concerned contact tracing approach without the use of smartphones. A lot of this is opinion based, so assume half the sentences you read starts with &ldquo;in my opinion&rdquo;.</p>
+<p>Ever since Google and Apple announced they&rsquo;re releasing an API for contact tracing, I&rsquo;ve been terrified of the idea. I won&rsquo;t point my reasons, but for a detailed explanation read it from EFF:</p>
+<p><a href="https://www.eff.org/deeplinks/2020/04/challenge-proximity-apps-covid-19-contact-tracing">The Challenge of Proximity Apps For COVID-19 Contact Tracing
+</a></p>
+<p>The problems that I have with such an API are pretty much based on one fundamental concept: <em>Consent</em>. This is beautifully explained in EFF&rsquo;s blog under the -surprise, surprise- <em>Consent</em> paragraph. The rest of the arguments can be built on that. Below are 3 core ideas that I will reference throughout this document.</p>
+<p><strong>P: I should have the ability to pull the plug, whenever I want or whatever the global or personal conditions are</strong>.</p>
+<blockquote>
+<p>It is our fundamental right to opt-in or opt-out of tracing. End of story. If I choose to opt-out, feel free to call me an asshole but that should be the extent of what &ldquo;authorities&rdquo; can do about it.</p>
+</blockquote>
+<p><strong>C: My contact history should only be shared with my explicit consent in the case that I mark myself as &ldquo;infected&rdquo;.</strong></p>
+<blockquote>
+<p>The implication of the above is that, any repository created to store traces shouldn&rsquo;t be usable for arbitrary tracing. And no one should be able to mark me as &ldquo;infected&rdquo;.</p>
+</blockquote>
+<p><strong>A: Such method should be accesible and inclusive.</strong></p>
+<blockquote>
+<p>Collective and individual health benefits should not require an expensive smartphone in your pocket, or being a citizen of a high-GDP country.</p>
+</blockquote>
+<p><br /></p>
+<hr />
+<p><br /></p>
+<p>I will now try to describe a technological solution that is not only privacy centered but also:</p>
+<ol>
+<li>does not employ smartphones</li>
+<li>is cheaper to produce so nonsmartphone users can be reachable</li>
+<li>is easy to pull the plug, easy to replace</li>
+<li>is potentially decentralised</li>
+</ol>
+<p>You may see some of these claims above are also each other&rsquo;s reasons for being so.</p>
+<h3 id="core-idea">Core idea<a class="headerlink" href="#core-idea" title="Permanent link"></a></h3>
+<p>To be honest the core idea is pretty similar to the original contact tracing approach. I would like to think that we&rsquo;re closing the privacy gaps here. So here goes nothing:</p>
+<p>What if, instead of using smartphones, we used dedicated wearables (bracelets, rings, watches) with tiny and cheap BLE/Wifi/LoRa/802.15.4 enabled microcontrollers for this purpose. </p>
+<p>The main problem I have with using smartphones is that once this solution is injected into our operating systems, there is effectively no taking it back<sup>1</sup>. But instead, if it was a cheap accessory that <em>my work, social and love life</em> was less dependent on, I would have zero trouble binning it (in accordance with <em>Idea P</em>). And this is where we start from.</p>
+<p>Secondly, as EFF article also mentions, we do not take our smartphones everywhere. The reasons vary from joining private meetings to simply forgetting your phone at home to do groceries, or perhaps going on a bike ride without the weight of a phone. In comparison, an accessory like a bracelet or a ring would be much lighter, much less intrusive, much less forgettable. It could even be made waterproof so we can even go to the pool or the sea (maybe not, waterproofing for sea is hard).</p>
+<p>Thirdly, Bluetooth is not a technology built for this purpose. Even though the advancements in BT tech has certainly increased its capabilities such as with BLE, it would be much naive to think that such technology could reach the necessary saturation (<a href="https://venturebeat.com/2020/04/21/european-scientists-and-researchers-raise-privacy-concerns-over-coronavirus-contact-tracing-apps/">60% by some estimates<sup>2<sup></a>) for the original approach to be effective. Hence, a purpose built device, with the right wireless technology could potentially be much more effective.</p>
+<h3 id="unique-but-rotating-beacon-ids">Unique-but-rotating beacon IDs<a class="headerlink" href="#unique-but-rotating-beacon-ids" title="Permanent link"></a></h3>
+<p>I like the idea of rotating IDs, but even I was able to see the leak in that proposal. This brings in 2 problems; </p>
+<ol>
+<li>Once you release your IDs you effectively release all your association data (also mentioned in EFF article). </li>
+<li>
+<p>The fact that any guessable algorithm can also be reverse-engineered by some pattern analysis, which has severe privacy implications (i.e. metadata analysis). </p>
+<ul>
+<li>Let me give you an example; I am currently in isolation with my brother and say we turned our contact tracing on. From my point of view, every 30 minutes or so, an ID would disappear and a new one would show up. Now, without even a proper analysis, one would be able to tie those IDs to each other. This creates a huge risk.</li>
+</ul>
+</li>
+<li>
+<p>Smartphone apps or stationary scanners that has no/little relevance to the cause could also try and mine these IDs since we&rsquo;ll be broadcasting them. They should be obfuscated, secured and carry as little metadata as much as possible.</p>
+</li>
+</ol>
+<p>My theoretical approach to this problem (in accordance with <em>Idea C</em>) formed itself in this way:</p>
+<p><strong>IDs should rotate in such a way that it should be near-impossible to tell ID rotation from incoming/outgoing contacts</strong></p>
+<p>To realise that; I propose:</p>
+<ol>
+<li>broadcasting multiple IDs from a single beacon</li>
+<li>randomising the intervals for each ID rotation</li>
+<li>randomly dropping existing broadcast IDs and appending new broadcast IDs</li>
+</ol>
+<p>This would effectively make it much more difficult for a metadata analyser to tell if I sat home with my brother all day, or if I went out and did shopping. I will now admit that the average number of keys would still be minable to give an idea about how many people I&rsquo;ve been in contact with. I am definitely open here to constructive critism <em>(I mean I&rsquo;m open at every part of this doc, but here especially)</em>.</p>
+<blockquote>
+<p>This could also be impossible to implement with a smartphone since they can probably emit only 1 ID. So using a specialised embedded system for this has its side advantages.</p>
+</blockquote>
+<h3 id="self-infection-notification">Self-infection notification<a class="headerlink" href="#self-infection-notification" title="Permanent link"></a></h3>
+<p>Assumption is that, these devices would only hold last 2 weeks of contacts, and locally. If a person is infected, they and only they should have the choice to share their contact history. Also with accordance to <em>Idea C</em>, there is no need to upload this data to a repository until then. My suggestion is that contact history would only be uploaded once a person marks themselves as infected.
+Once the contact history is uploaded it would be done so without the source ID, limiting the amount of association. And in fact, this upload would simply be an append operation to a list of <em>&ldquo;been in contact with an infected person&rdquo;</em> with maybe a time/datestamp of contact <sup>3</sup>.</p>
+<p>At this point all we have is a list of IDs that have <em>-potentially-</em> been in contact with an infected person. A list does not have the capacity to notify anyone since there is absolutely no contact information attached. So, at this point it falls onto the user to download the list of IDs periodically and locally check against their own IDs to see if they have been in contact. Or alternatively they can use a trusted proxy/provider to store their IDs to automatically check and be notified. But the important thing here is to use a proxy and which proxy to use is a choice<sup>4</sup>.</p>
+<p>At this point, a user who now knows they&rsquo;ve been in contact with an infected person also has a choice. Either mark themselves as &ldquo;been in contact&rdquo; <em>(maybe followed by an indicator that this is a multiple level contact)</em> or do nothing (in accordance with <em>Idea C</em>).</p>
+<h3 id="automating-iterative-consent-on-each-hop-with-a-tradeoff">Automating iterative consent on each &ldquo;hop&rdquo; <em>(with a tradeoff)</em><a class="headerlink" href="#automating-iterative-consent-on-each-hop-with-a-tradeoff" title="Permanent link"></a></h3>
+<p>I&rsquo;ve already explained some of these to a couple people in IT sector. And one of their initial responses was <em>-apart from &ldquo;why are you so paranoid&rdquo;-</em> that a consent requirement on each &ldquo;hop&rdquo; could incapacitate the system rendering it ineffective, especially considering most people would give consent anyways. </p>
+<p>And I agree with them to an extent since it requires human interaction. My brother (he works in PR) also pointed out that most people would rather have a more autonomous system, then to download a list everyday and manually check against. So in this section I will offer amendments to my above proposal with a potential trade-off from privacy. But keeping the above option as a choice nevertheless, which is the important thing.</p>
+<p>Above section mentioned that the contacted IDs would only be uploaded if the user marked themselves as &ldquo;infected&rdquo; or &ldquo;been in contact&rdquo;. We will now give the users an option to &ldquo;automatically upload contact history in case of contact&rdquo;.</p>
+<p>The good thing about this approach is that, they can use their devices, or their trusted proxies to handle this option, or not use this option at all.</p>
+<p>The bad thing about this approach is that the contact tracing would still require a collective action from edge devices to be realised. On top of that, bad actors can make this an <em>opt-out</em> rather than <em>opt-in</em>. So transparency is at utmost importance when/if a proxy is used.</p>
+<p>Now, when a user mark themselves as infected, the distributed system of wearables start tracing the contacts who have been in contact with the &ldquo;infected&rdquo; person. The system all-together &ldquo;automagically&rdquo; traces contacts, with a consent check at each user&rsquo;s device.</p>
+<h3 id="repository-options">Repository options<a class="headerlink" href="#repository-options" title="Permanent link"></a></h3>
+<p>Ideally, there should be a decentralised, intamperable, single storage sharing the same API for the entire world (<em>right, I hate it but it already sounds like we&rsquo;re talking about blockchain</em>). If this can be done with a blockchain ledger or not is beyond my knowledge but here are my thoughts on this fictional repository and its requirements.</p>
+<ol>
+<li>National repositories will not suffice as they will fail to track international contacts.</li>
+<li>The repository should be decentralised and intamperable in case of bad actors trying to tamper with contact histories to either mimic good results or bad results for whatever reason.</li>
+<li>For efficiency purposes, this repository should be differentially synchronisable, because not everyone has 8MBit internet access, let alone any internet access (in accordance with <em>Idea A</em>).</li>
+<li>Bonus: repository should be accesible via <em>interesting options</em>: In countries with poorer internet access: GSM, SMS, AM/FM, amateur radio bands could be thought for distribution. Synchronisation hubs could be set-up in regions with poor or no internet access so synchronisation can be performed with physical access<sup>5</sup>.</li>
+</ol>
+<h3 id="challenges">Challenges<a class="headerlink" href="#challenges" title="Permanent link"></a></h3>
+<p>Writing <em>poorly</em> from the comfort of my home is easy. Doing is something else. There are already many challenges that even I can spot right now. And I&rsquo;d rather talk about them too, and offer answers if I can.</p>
+<h4 id="technological">Technological<a class="headerlink" href="#technological" title="Permanent link"></a></h4>
+<p>To be completely honest, technological challenges are probably the least of the worries. A lot of them are side-products of dumping smartphones for this approach. Here are 3 of them that I think will require serious thought:</p>
+<ul>
+<li>Power/Battery efficiency: these devices will need to recharge. And unfortunately the task they&rsquo;ll be doing requires wireless connectivity, which is never an power-efficient task. The fact they&rsquo;re battery operated also puts an expiry date on them.</li>
+<li>The wireless tech to be used should be able to create multiple beacons, and scan at the same time. It should also be able to address EFF&rsquo;s concerns about false positives and false negatives <em>(to an extent, this aint an ideal world but we work towards it)</em>.</li>
+<li>Open source and embedded systems dont play well together as cross-compilation is not an easy task for general public. Problem is, any device that&rsquo;s manufactured and sold could&rsquo;ve been injected with rogue code. These devices should be flashable by user if needed. And in fact, entire manufacturing process should be open-source and reproducable.</li>
+</ul>
+<h4 id="financial">Financial<a class="headerlink" href="#financial" title="Permanent link"></a></h4>
+<p>In an ideal world, these devices would be distributed to citizens free of charge. Some financial protections could be implemented like promises to return, replacements costs etc. The main problem would still be the initial production and distribution costs.</p>
+<ul>
+<li>
+<p>First off, these devices need to be cheap enough that their benefits shall overcome the financial cost (<em>unfortunately, there IS a price for human life</em>). Not much to say here. This could be put into the technological challenges too.</p>
+</li>
+<li>
+<p>This approach requires complete transparency in hardware, software and distribution. This unfortunately leaves very little margin for making profits, and hence even less incentive for companies/corporates to pick it up even the benefits will surpass costs<sup>6</sup>. So perhaps, governments <em>-where possible-</em> could institute incentives for companies/corporates to pick up this work.</p>
+</li>
+<li>
+<p>At certain states, we can also forget about governments for funding or for incentives. Some of them would rather implement the easy option and reap the benefits of citizen-tracking as a bonus. In these countries unfortunately, this leaves the financial burden of production and distribution to non-profits and non-governments or worse individual users. </p>
+</li>
+</ul>
+<p>So perhaps a non-global funding is not the way to go here. As proven, this is a globally shared problem and we can only come out of it united<sup>7</sup>. </p>
+<p>Perhaps a global funding needs to be set-up or tapped into for this vision to be realised. Perhaps this could be the task of an R&amp;D branch of an entity that organises the &ldquo;germ-games&rdquo; Bill Gates mentions in his <a href="https://www.ted.com/talks/bill_gates_the_next_outbreak_we_re_not_ready?language=en">now-infamous 2015 speech</a>.</p>
+<h4 id="distribution">Distribution<a class="headerlink" href="#distribution" title="Permanent link"></a></h4>
+<p>Of course, the first question I&rsquo;ve been challenged with was: </p>
+<p><strong>&ldquo;There are already 3.5 billion smartphones distributed, ready to work and fight the good fight. How are you gonna produce and deliver these within time?&rdquo;</strong></p>
+<p>I&rsquo;ve put that in bold, because it&rsquo;s indeed a valid question. Unfortunately my answer won&rsquo;t be that satisfying. Honestly, a vaccine could come faster than this approach. We might kill this thing off for good within this year. A lot of good things can happen. But I&rsquo;d like to focus on contingencies, because plans fail.</p>
+<p>In my humble opinion, the proposal here is a plan Z, one that we should also start working on right now. Because and most importantly; this may not be seasonal thing but a continuous wave of resurgence.</p>
+<p><a href="https://www.technologyreview.com/2020/03/17/905264/coronavirus-pandemic-social-distancing-18-months/">We&rsquo;re not going back to normal</a></p>
+<p>So in 5 years time, this may be still going on and we may have accidentally handed our privacy to Apple, Google, our governments etc. And it may not even be working. And because why? We thought this was gonna go away? That we could pull the plug once this is over?</p>
+<p>I&rsquo;ll be the pessimist: That&rsquo;s just wishful thinking layered with impossible chains of &ldquo;<em>what if</em>&ldquo;s.</p>
+<p>Now, onto the actual problem of distribution then. Once the first version is ready, a unit&rsquo;s production cost should be as cheap as a cheap mp3 player. Because, it&rsquo;s like there isn&rsquo;t a place of the world those things cannot go to or be sold. Production would be picked up by companies, whose products are either to be bought by &ldquo;authorities&rdquo; or to be shipped and sent to be sold by distributors. </p>
+<p>Some of the distribution could be done via governmental postal entities <em>(some are already being used to deliver masks to general public)</em>, or some could be off-loaded to cargo companies and e-commerce sites.</p>
+<p>In countries where postal infrastructure is less than ideal, the aforementioned <em>synchronisation hubs</em> should/could be set up to provide access to these devices. And in fact just like we do today with some services,  <em>&ldquo;mobile synchronisation hub&rdquo;</em>s could be used for delivery to less inhabited areas and for the synchronisation as well <em>(which would be less frequent than other places, but just by definition these places would be at lesser risk)</em>.</p>
+<p>I will offer one middle-way solution to speeding up the distribution. The framework proposed here could be easily implemented to work within smartphones first<sup>8</sup>. And the only physical trade-off in doing so would be limiting ourselves to the Bluetooth technology. At the same time purpose-specific devices could be developed and produced to either replace smartphone apps, or work with them.</p>
+<blockquote>
+<p>I genuinely envision a world where we can pick these up from a small grocery shop if needed just like I can buy a flash drive from a cosmetics shop for no reason.</p>
+</blockquote>
+<h3 id="final-remarks">Final remarks<a class="headerlink" href="#final-remarks" title="Permanent link"></a></h3>
+<p>Look, a lot of the stuff I talk about here, I&rsquo;m not sure about their feasibility. This is merely a compilation of ideas, based on my personal engineering knowledge and experience, and most importantly written with good intentions. I can only claim to know one thing, the world is about to have a steep change and we need to adapt, together, for the better. And for what it&rsquo;s worth, I&rsquo;m willing to put my share of the work needed for this goal (mostly system design and embedded coding!!). </p>
+<p>With steady progress starting now, we can have the tools to fight this virus (and the futures ones), with a united global approach and without handing our privacy to &ldquo;authorities&rdquo;. I genuinely find that utopia that I mentioned in <sup>5</sup> is plausible and an OK place to live. And in case you&rsquo;re wondering, we&rsquo;re already living in a what people would call an apocalyptic utopia 10 years ago.</p>
+<h2 id="_1"><br /><a class="headerlink" href="#_1" title="Permanent link"></a></h2>
+<h5 id="footnotes">Footnotes<a class="headerlink" href="#footnotes" title="Permanent link"></a></h5>
+<p><sup>1</sup><a href="https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-article-info">This is the research article</a> I think is used as a reference, but honestly no number as 60% is actually mentioned. If anyone can find the where that number popped from I&rsquo;d be glad, cuz there&rsquo;s multiple references to it from multiple publications (some of them sister publications).</p>
+<p><sup>2</sup>I dont have to take Google&rsquo;s, Apple&rsquo;s, my government&rsquo;s or <em>that app developer</em>&lsquo;s word for it that it&rsquo;s been removed/deactivated.</p>
+<p><sup>3</sup>These appends can be done via trusted proxies/providers in a burst-write manner to limit the amount of metadata that can be mined by an append operation, like a TOR network approach.</p>
+<p><sup>4</sup>You can think of these proxies/providers analogous to online  cryptocoin-wallet services. You may choose to trust them, or you can use your own. For the majority of the public existence of multiple proxies/providers would make this system much easier to use and hence increase the efficiency of the complete approach.</p>
+<p><sup>5</sup>Slightly utopic but think of a world where you go to your corner shop, give them your bracelet so they can check for you if you&rsquo;ve been in contact with an infected person. It&rsquo;s not that far-fetched if you ask me, especially considering the world we&rsquo;re living in right now.</p>
+<p><sup>6</sup>I dont think people at Google and Apple didnt think of the things I wrote here. No, I find it more plausible that someone up who cares more about profits told them to forget about it.</p>
+<p><sup>7</sup>Maybe we need a new messiah or an alien attack to unite, since a global pandemic with a disease that we have no cure or no vaccine is not enough yet? I mean come&rsquo;on, this is right there with the rest of apocalypse movie tropes&hellip;</p>
+<p><sup>8</sup>There is a reason I did not offer this from the beginning. Any smartphone app would also be able to tie your personal information already residing in your smartphone to 1. your personal IDs, 2. IDs you&rsquo;ve been in contact with.</p></article></body></html>
