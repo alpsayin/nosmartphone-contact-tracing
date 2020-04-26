@@ -158,7 +158,7 @@ I will offer one middle-way solution to speeding up the distribution. The framew
 
 Look, a lot of the stuff I talk about here, I'm not sure about their feasibility. This is merely a compilation of ideas, based on my personal engineering knowledge and experience, and most importantly written with good intentions. I can only claim to know one thing, the world is about to have a steep change and we need to adapt, together, for the better. And for what it's worth, I'm willing to put my share of the work needed for this goal (mostly system design and embedded coding!!). 
 
-With steady progress starting now, we can have the tools to fight this virus (and the futures ones), with a united global approach and without handing our privacy to "authorities". I genuinely find that utopia that I mentioned in <sup>5</sup> is plausible and an OK place to live. And in case you're wondering, we're already living in a what people would call an apocalyptic utopia 10 years ago.
+With steady progress starting now, we can have the tools to fight this virus (and the futures ones), with a united global approach and without handing our privacy to "authorities". I genuinely find that utopia that I mentioned in <sup>5</sup> is plausible and an OK place to live in. And in case you're wondering, we're already living in a what people would call an apocalyptic utopia 10 years ago.
 
 <br />
 
