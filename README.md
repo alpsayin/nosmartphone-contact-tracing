@@ -30,7 +30,7 @@ I will now try to describe a technological solution that is not only privacy cen
 1. does not employ smartphones
 2. is cheaper to produce so nonsmartphone users can be reachable
 3. is easy to pull the plug, easy to replace
-4. is potentially decentralised
+4. is decentralised
 
 You may see some of these claims above are also each other's reasons for being so.
 
