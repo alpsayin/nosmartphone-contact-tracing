@@ -25,6 +25,14 @@ The problems that I have with such an API are pretty much based on one fundament
 
 <br />
 
+1 day after writing and publishing this repo I found this gem. Follow it to the bottom and there are references to github repositories and a research paper.
+
+[Protecting Lives & Liberty](https://ncase.me/contact-tracing/). 
+
+It turns out good ideas seem to sprout from multiple minds, I'll take this as a validation.
+
+<img src="https://ncase.me/contact-tracing/onepage.png?v=4" width="400px">
+
 I will now try to describe a technological solution that is not only privacy centered but also:
 
 1. does not employ smartphones
