@@ -173,6 +173,8 @@ Look, a lot of the stuff I talk about here, I'm not sure about their feasibility
 
 With steady progress starting now, we can have the tools to fight this virus (and the futures ones), with a united global approach and without handing our privacy to "authorities". I genuinely find that utopia that I mentioned in <sup>5</sup> is plausible and an OK place to live in. And in case you're wondering, we're already living in a what people would call an apocalyptic utopia 10 years ago.
 
+Honorable mention *(even though the use case and the techs used are not exactly aligned with what I have in mind)*:  [https://techcrunch.com/2020/04/02/estimote-launches-wearables-for-workplace-level-contact-tracing-for-covid-19/](https://techcrunch.com/2020/04/02/estimote-launches-wearables-for-workplace-level-contact-tracing-for-covid-19/)
+
 <br />
 
 -------
